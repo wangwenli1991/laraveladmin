@@ -15,6 +15,7 @@ class UsersController extends Controller
 {
 
  	public function getUsers(){
+        echo 1;die;
  			$users = User::with('usermeta')->get();
  			return view('admin.users.users')->with(compact('users'));
  	}
