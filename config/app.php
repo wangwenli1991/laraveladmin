@@ -38,7 +38,7 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG', false),
+    'debug' => env('APP_DEBUG', ture),
 
     /*
     |--------------------------------------------------------------------------
@@ -142,6 +142,9 @@ return [
     */
 
     'providers' => [
+Barryvdh\Debugbar\ServiceProvider::class,
+
+
 
         /*
          * Laravel Framework Service Providers...
@@ -202,6 +205,8 @@ return [
     */
 
     'aliases' => [
+    'Debugbar' => Barryvdh\Debugbar\Facade::class,
+
 
         'App' => Illuminate\Support\Facades\App::class,
         'Artisan' => Illuminate\Support\Facades\Artisan::class,
