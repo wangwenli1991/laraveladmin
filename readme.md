@@ -1,40 +1,38 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+LaravelAdmin
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+一个完整的laravel dashbord模板与laravel 5.3 + gentelella管理模板
 
-## About Laravel
+LaravelAdmin是一个管理面板，配有Laravel 5.3和gentelella管理模板。
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
+管理面板与Laravel 5.3管理用户认证，注册电子邮件确认，密码恢复，api管理。Gentelella管理模板有一个管理功能的日志。我们将覆盖所有这些+全面的用户身份验证与社会登录，文章rwiting和api。我们继续工作
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+一个Laravel 5.3.x项目。
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb combination of simplicity, elegance, and innovation give you tools you need to build any application with which you are tasked.
+Laravel管理面板功能
+建在Laravel 5.3上
+使用MySQL数据库
+依赖关系由COMPOSER和Bower进行管理
+Laravel脚手架用户和管理员身份验证。
+快速安装
 
-## Learning Laravel
+克隆项目 sudo git clone https://github.com/mshossain110/LaravelAdmin.git
 
-Laravel has the most extensive and thorough documentation and video tutorial library of any modern web application framework. The [Laravel documentation](https://laravel.com/docs) is thorough, complete, and makes it a breeze to get started learning the framework.
+为项目创建一个MySQL数据库
 
-If you're not in the mood to read, [Laracasts](https://laracasts.com) contains over 900 video tutorials on a range of topics including Laravel, modern PHP, unit testing, JavaScript, and more. Boost the skill level of yourself and your entire team by digging into our comprehensive video library.
+创建或复制.env文件运行 cp .env.example .env
 
-## Contributing
+配置.env文件
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+sudo composer update从项目根文件夹运行
 
-## Security Vulnerabilities
+给予完整的文件许可 sudo chmod -R 755 LaravelAdmin
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+生成密钥 php artisan key:generate
 
-## License
+创造laravel桌 php artisan migrate
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+运行服务器 php artisan serve
+
+浏览浏览器 http://localhost:8000
+
+*要访问您需要用户帐户。
