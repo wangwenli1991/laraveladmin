@@ -1,33 +1,39 @@
 # LaravelAdmin
-A complete laravel dashbord template with laravel 5.3 + gentelella admin template
+一个完整的laravel dashbord模板与laravel 5.3 + gentelella管理模板
 
+LaravelAdmin是一个管理面板，配有Laravel 5.3和gentelella管理模板。
 
-### LaravelAdmin is an Admin panel build with Laravel 5.3 and  gentelella admin template.
+管理面板与Laravel 5.3管理用户认证，注册电子邮件确认，密码恢复，api管理。Gentelella管理模板有一个管理功能的日志。我们将覆盖所有这些+全面的用户身份验证与社会登录，文章rwiting和api。我们继续工作
 
-Admin panel with Laravel 5.3 to manage user authentication, registration with email confirmation,  password recovery, api manage. Gentelella admin template has a log of admin features. We will cover all of those + full user authentication with social login, Article rwiting and api. we are continuee working. 
+一个Laravel 5.3.x项目。
 
-###### A [Laravel](http://laravel.com/) 5.3.x project.
-| Laravel-admin panel Features  |
-| :------------ |
-|Built on [Laravel](http://laravel.com/) 5.3|
-|Uses [MySQL](https://github.com/mysql) Database|
-|Dependencies are managed with [COMPOSER](https://getcomposer.org/) and [bower](https://bower.io/)|
-|Laravel Scaffolding **User** and **Administrator Authentication**.|
+Laravel管理面板功能
+建在Laravel 5.3上
+使用MySQL数据库
+依赖关系由COMPOSER和Bower进行管理
+Laravel脚手架用户和管理员身份验证。
+快速安装
 
+克隆项目 sudo git clone https://github.com/mshossain110/LaravelAdmin.git
 
-### Quick instalation
+为项目创建一个MySQL数据库
 
-1. clone the project `sudo git clone https://github.com/mshossain110/LaravelAdmin.git`
-2. Create a MySQL database for the project
-3. create or copy .env file run `cp .env.example .env`
-4. Configure your `.env` file 
-5. Run `sudo composer update` from the projects root folder
-6. give full file permission `sudo chmod -R 755 LaravelAdmin`
-7. generate key `php artisan key:generate`
-8. create laravel table `php artisan migrate`
-9. Run server `php artisan serve`
-10. browse in your browser `http://localhost:8000`
+创建或复制.env文件运行 cp .env.example .env
 
-	*To access you need a user account.
+配置.env文件
+
+sudo composer update从项目根文件夹运行
+
+给予完整的文件许可 sudo chmod -R 755 LaravelAdmin
+
+生成密钥 php artisan key:generate
+
+创造laravel桌 php artisan migrate
+
+运行服务器 php artisan serve
+
+浏览浏览器 http://localhost:8000
+
+*要访问您需要用户帐户。
 
 
