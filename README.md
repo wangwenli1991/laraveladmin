@@ -34,6 +34,4 @@ sudo composer update从项目根文件夹运行
 
 浏览浏览器 http://localhost:8000
 
-*要访问您需要用户帐户。
-
 
