@@ -38,7 +38,7 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG', ture),
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -130,6 +130,7 @@ return [
 
     'log_level' => env('APP_LOG_LEVEL', 'debug'),
 
+
     /*
     |--------------------------------------------------------------------------
     | Autoloaded Service Providers
@@ -142,9 +143,9 @@ return [
     */
 
     'providers' => [
+
+
 Barryvdh\Debugbar\ServiceProvider::class,
-
-
 
         /*
          * Laravel Framework Service Providers...
@@ -205,7 +206,8 @@ Barryvdh\Debugbar\ServiceProvider::class,
     */
 
     'aliases' => [
-    'Debugbar' => Barryvdh\Debugbar\Facade::class,
+'Debugbar' => Barryvdh\Debugbar\Facade::class,
+ 
 
 
         'App' => Illuminate\Support\Facades\App::class,
